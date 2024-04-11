@@ -8,6 +8,7 @@
         /* ------------------------------
                  INDEX CSS
         ------------------------------- */
+@import url("./_partials/debug.css");
 @import url("./_partials/reset.css");
 @import url("./_partials/utility.css");
 @import url("./_partials/variables.css");
