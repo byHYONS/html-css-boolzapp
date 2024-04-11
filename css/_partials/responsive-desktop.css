@@ -17,9 +17,31 @@
 
 
             /* FINE */
+    
+    .container {
+        width: 80%;
+        height: 90%;
+        margin: auto;
+    }
+
+    .content__chat {
+        
+        height: calc(90vh - 10.9375rem);
+    }
 
 
-
+    .content__message i.fas {
+        display: block;
+        font-size: 1.5625rem;
+        color: var(--color-icon-bottom-bar);
+    }
+    
+    
+    .content__message input {
+        width: 80%;
+        height: 60%;
+        border: none;
+    }
 
 
 

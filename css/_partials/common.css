@@ -7,14 +7,14 @@
 /* ------------------------------
             LAYOUT
 ------------------------------- */
-.container {
-    width: 100vw;
+body {
+    
     height: 100vh;
-    padding: 0 30px;}
+    background: linear-gradient(to bottom, var(--bg-first) 20%, var(--bg-second) 20%);
+}
 
-.col {width: 100%; border-radius: 25px;}
 
-.content {padding: 25px;}
+
 
         /*  FINE  */
 
@@ -22,29 +22,106 @@
     /* ---   SECTIONS   --- */
 /* **************************** */
 
-body {
-    height: 100vh;
-    margin: 0;
-    background: linear-gradient(to bottom, var(--bg-first) 20%, var(--bg-second) 20%);
-}
 
 
-/* ------------------------------
-          HEADER
------------------------------- */
-
-        /* FINE  */
 
 /* ------------------------------
            MAIN
 ------------------------------- */
-#app .container
+.col__list {display: none;}
+
+/* CONTENITORE CHAT SUPERIORE */
+
+/* .chat__window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+
+.chat__window__top {
+    display: flex;
+    width: 100%;
+    background-color: var(--color-top-bar);
+}
+
+figure.user__avatar {
+    padding: .625rem;
+    width: 6.25rem;
+    height: 6.25rem;   
+}
+.user__avatar img {border-radius: 50%; width: 100%; height: auto;}
+
+.user__name {margin: auto .625rem;}
+.user__name h2 {
+    padding: 0 1.5625rem;
+    color: var(--color-text-primary);
+}
+
+.user__name p {
+    line-height: 1.8;
+    padding: 0 1.5625rem;
+    color: var(--color-text-secondary);
+}
+
+.content__chat .tools {display: none;}
+
+
+/* CONTENITORE DEI MESSAGGI */
+
+.content__chat {
+    background: center/cover, url("../../img/mine.jpg");
+    width: 100%;
+    height: calc(100vh - 10.9375rem);
+}
+
+.content__message {
+    width: 100%;
+    height: 4.6875rem;
+    background-color: var(--color-bottom-bar);
+}
+
+.content__message{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content__message i.fas {
+    display: none;
+}
+
+
+.content__message input {
+    width: 95%;
+    height: 60%;
+    border-radius: .3125rem;
+    border: none;
+}
+
+
+.content__message input::placeholder {
+    padding-left: 1.5625rem;
+    font-size: .9375rem;
+    color: var(--color-text-message);
+}
+
+
+
+
+
 
 
 
 
 
         /* FINE  */
+
+
+
+
+
+
 
 /* ------------------------------
           FOOTER
