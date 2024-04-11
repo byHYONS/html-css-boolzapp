@@ -1,41 +1,44 @@
-/* -------------------------
-    *** RESPONSIVE ***
--------------------------- */
+/* ---------------------------------
+         *** RESPONSIVE ***
+---------------------------------- */
 
-   /* ************** 
-        DESKTOP
-   *************** */
+   /* *************************** 
+                DESKTOP
+   **************************** */
+        /* *** DEBUG  *** */
+@media screen and (min-width: 992px) {
+    .debug header::before {
+        content: 'DESKTOP';
+        background-color: orange;
+    }
+            /* FINE */
+    
+        /* *** ???  *** */
 
-@media screen and (min-width: 1140px) {
-.debug header::before {
-content: 'DESKTOP';
-background-color: orange;
+
+            /* FINE */
+
+
+
+
+
+
 }
-/* container */
 
 
 
 
-
-
-
-}
-
-      /* FINE  */
-
-
-
-   /* ***************
-      DESKTOP LARGE
-   *************** */
+   /* ***********************
+        DESKTOP LARGE
+   *********************** */
 
 @media screen and (min-width: 1200px) {
-.debug header::before {
-content: 'DESKTOP LARGE';
-background-color: red;
-}
+    .debug header::before {
+        content: 'DESKTOP LARGE';
+        background-color: red;
+        }
 
-.container {max-width: 1200px;}
+    .container {max-width: 1200px;}
 
 
 }
@@ -44,49 +47,10 @@ background-color: red;
         /* FINE  */
 
 /* ------------------------------
-       *** FINE ***
+          *** FINE ***
 ------------------------------- */
 
 
 
    
    
-   
-   /* ************** 
-        DESKTOP
-   *************** */
-
-   @media screen and (min-width: 1140px) {
-    .debug header::before {
-    content: 'DESKTOP';
-    background-color: orange;
-    }
-    /* container */
-    
-    
-    
-    
-    
-    
-    
-    }
-    
-    
-    
-    
-       /* ***************
-          DESKTOP LARGE
-       *************** */
-    
-    @media screen and (min-width: 1200px) {
-    .debug header::before {
-    content: 'DESKTOP LARGE';
-    background-color: red;
-    }
-    
-    .container {max-width: 1200px;}
-    
-    
-    }
-    
-    
