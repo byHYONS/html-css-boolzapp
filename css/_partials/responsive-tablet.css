@@ -1,0 +1,27 @@
+/* -------------------------
+    *** RESPONSIVE ***
+-------------------------- */
+
+   /* ************** 
+        TABLET 
+   *************** */
+@media screen and (min-width: 768px) {
+.debug header::before {
+content: 'TABLET';
+background-color: lawngreen;
+}
+
+
+
+
+
+}
+
+
+        /* FINE  */
+
+/* ------------------------------
+       *** FINE ***
+------------------------------- */
+
+
