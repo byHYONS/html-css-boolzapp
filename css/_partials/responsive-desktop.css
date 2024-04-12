@@ -19,12 +19,13 @@
             /* FINE */
 
 
-    .col__list {
-        display: flex;
-        width: 30%;
-    }
+            
+    .list {display: flex; flex-direction: column; width: 35%;}
 
-    .col-chat {width: 70%;}
+    .tools i {display: inline-block;}
+
+
+    .chat {width: 65%;}
 
     main {display: flex;}
     

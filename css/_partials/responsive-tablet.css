@@ -15,7 +15,9 @@
 
         /* *** ???  *** */
 
-    .col__list {display: flex;}
+    .list {display: flex; flex-direction: column;}
+
+    .chat__top i {display: inline-block;}
 
 
     .content__message i.fas {
