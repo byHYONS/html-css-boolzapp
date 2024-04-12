@@ -106,12 +106,36 @@ figure.user__avatar {
     color: var(--color-text-message);
 }
 
+.content__chat {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.content__text-area{
+    display: flex;
+    max-width: 18.75rem;
+    border-radius: .9375rem;
+}
 
 
+.content__text-area__in {background-color: var(--color-message-out); align-self: flex-end;}
 
 
+.content__text-area__out {background-color: var(--color-message-in);align-self: flex-start}
 
+.text-area__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.content__text-area p {color: var(--color-text-primary);}
+
+.text-area__info i, .text-area__info span {padding: .625rem; color: var(--color-text-secondary);}
+
+.text-area__info span {font-size: .8125rem;}
 
 
 
