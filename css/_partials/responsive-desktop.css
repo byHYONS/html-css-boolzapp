@@ -17,6 +17,7 @@
 
 
             /* FINE */
+    main {display: flex;}
     
     .container {
         width: 80%;
