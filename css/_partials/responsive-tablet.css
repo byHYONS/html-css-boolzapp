@@ -15,6 +15,7 @@
 
         /* *** ???  *** */
 
+    .col__list {display: flex;}
 
 
     .content__message i.fas {
@@ -29,6 +30,22 @@
         height: 60%;
         border: none;
     }
+
+
+    figure.user__avatar {
+        display: flex;
+        padding: 0 .9375rem;
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    .user__avatar img {
+        margin: auto;
+        flex-shrink: 0;
+        border-radius: 50%; 
+        width: 100%; 
+        height: auto;
+    }
+
 
             /* FINE */
 

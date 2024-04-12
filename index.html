@@ -24,7 +24,9 @@
                     <div class="container__list">
                         <div class="list__top">
                             <!-- FOTO AVATAR -->
-                            <figure class="user__avatar"></figure>
+                            <figure class="user__avatar">
+                                <img src="./img/avatar_io.jpg" alt="avatar_1">
+                            </figure>
                             <!-- STRUMENTI & IMPOSTAZIONI -->
                             <div class="tools">
                                     
@@ -45,7 +47,9 @@
                                 <li class="list__user">
                                     <div class="list__user__content">
                                         <!-- FOTO USER -->
-                                        <figure class="user__avatar"></figure>
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_2.jpg" alt="avatar_1">
+                                        </figure>
                                             <!-- NOME USER + INFO ACCESSO -->
                                         <div class="user__name">
                                             <h2>NOME</h2>
@@ -73,13 +77,13 @@
                         <!-- TOP BAR -->
                         <div class="chat__window__top">                            
                             <!-- FOTO CHAT -->
-                            <figure class="user__avatar bdb">
+                            <figure class="user__avatar">
                                 <img src="./img/avatar_1.jpg" alt="avatar_1">
                             </figure>
                             <!-- NOME CHAT + INFO ACCESSO -->
                             <div class="user__name">
-                                <h2>NOME</h2>
-                                <p class="user__info">lorem</p>
+                                <h2>Samuele</h2>
+                                <p class="user__info">Ultimo accesso oggi alle 15:15</p>
                             </div>
                             <!-- STRUMENTI DELLA CHAT -->
                             <div class="tools">
@@ -87,27 +91,29 @@
                             </div>                            
                         </div>
                         <!-- CONTENUTO DELLA CHAT -->
-                        <div class="content__chat pdg-25">
-                            <!-- MESSAGGI IN INGRESSO -->
-                            <div class="content__text-area content__text-area__in mb-15">
-                                <div id="text-in" class="text-area__in">
-                                    <p class="pdg-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum vero sequi voluptates? Repellendus, doloremque.</p>
-                                </div>
-                                <div class="text-area__info">
-                                    <i class="fas fa-angle-down"></i>
-                                    <span class="hour">15.15</span>
-                                </div>
-                            </div>
-                            <!-- MESSAGGI IN USCITA -->
-                            <div class="content__text-area content__text-area__out mb-15">
-                                <div id="text-in" class="text-area__out">
-                                    <p class="pdg-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum vero sequi voluptates? Repellendus, doloremque.</p>
-                                </div>
-                                <div class="text-area__info">
-                                    <i class="fas fa-angle-down"></i>
-                                    <span class="hour">15.15</span>
-                                </div>
-                            </div>
+                        <div class="content__chat pdg-25 ovf-auto">
+                            <ul>
+                                <li id="text-in" class="content__text-area content__text-area__in mb-15">
+                                    <!-- MESSAGGI IN INGRESSO -->
+                                    <div class="text-area__in">
+                                        <p class="pdg-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum vero sequi voluptates? Repellendus, doloremque.</p>
+                                    </div>
+                                    <div class="text-area__info">
+                                        <i class="fas fa-angle-down"></i>
+                                        <span class="hour">15.15</span>
+                                    </div>                 
+                                </li>
+                                <li id="text-out" class="content__text-area content__text-area__out mb-15">
+                                    <!-- MESSAGGI IN USCITA -->                            
+                                    <div id="text-in" class="text-area__out">
+                                        <p class="pdg-20">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo nostrum vero sequi voluptates? Repellendus, doloremque.</p>
+                                    </div>
+                                    <div class="text-area__info">
+                                        <i class="fas fa-angle-down"></i>
+                                        <span class="hour">15.15</span>
+                                    </div>                            
+                                </li>
+                            </ul>                                                        
                         </div>
                         <!-- AREA TEXT PER SCRIVERE I MESSAGGI -->
                         <div class="content__message">

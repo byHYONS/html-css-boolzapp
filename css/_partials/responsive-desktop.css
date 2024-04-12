@@ -17,6 +17,15 @@
 
 
             /* FINE */
+
+
+    .col__list {
+        display: flex;
+        width: 30%;
+    }
+
+    .col-chat {width: 70%;}
+
     main {display: flex;}
     
     .container {
@@ -44,6 +53,22 @@
         border: none;
     }
 
+
+
+
+    figure.user__avatar {
+        display: flex;
+        padding: 0 .9375rem;
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    .user__avatar img {
+        margin: auto;
+        flex-shrink: 0;
+        border-radius: 50%; 
+        width: 100%; 
+        height: auto;
+    }
 
 
 }
