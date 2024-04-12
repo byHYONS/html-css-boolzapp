@@ -10,13 +10,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>BoolApp</title>
 </head>
-<body class="debug">
+<body class="">
     <!-- BICOLORE DI BACKGROUNG -->
     <header>
 
     </header>
     <main>
-        <div id="app" class="container">
+        <div id="app" class="container bg-black">
             <!-- CONTENITORE CENTRATO ALLA VIEWPORT -->
             <div class="row">
                 <!-- COLONNA DI SINISTRA PER TABLET & DESKTOP -->
@@ -24,7 +24,7 @@
                         <div class="list__top">
                             <!-- FOTO AVATAR -->
                             <figure class="user__avatar">
-                                <img src="./img/avatar_io.jpg" alt="avatar_1">
+                                <img src="./img/avatar_8.jpg" alt="avatar_1">
                             </figure>
                             <!-- STRUMENTI & IMPOSTAZIONI -->
                             <div class="tools">
@@ -34,7 +34,7 @@
                             </div>
                         </div>
                         <!-- CONTENITORE DELLE NOTIFICHE -->
-                        <div class="list__notification px-15">
+                        <div id="notification" class="list__notification px-15">
                             <span><i class="fas fa-bell-slash"></i></span>
                             <div class="desktop ml-5">
                                 <p>Ricevi notifiche di nuovi messaggi</p>
@@ -42,7 +42,7 @@
                             </div>
                         </div>
                         <!-- BARRA DI RICERCA -->
-                        <div class="list__research d-flex ai-center">
+                        <div id="research" class="list__research d-flex ai-center">
                             <span><i class="fab fa-sistrix"></i></span>
                             <input type="text" placeholder="Cerca o inizia una nuova chat">
                         </div>
@@ -56,21 +56,186 @@
                                         <figure class="user__avatar">
                                             <img src="./img/avatar_2.jpg" alt="avatar_1">
                                             <!-- NOME USER + INFO ACCESSO -->
-                                        <div class="user__name">
-                                            <h2>NOME</h2>
-                                            <p class="user__info">lorem</p>
-                                        </div>
-                                            <!-- NOME USER + INFO ACCESSO -->
-                                        <div class="user__name">
-                                            <h2>NOME</h2>
-                                            <p class="user__info">lorem</p>
-                                        </div>
+                                            <div class="user__name desktop">
+                                                <h2>Jonathan</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
                                         </figure>
                                         <!-- ORARIO MESSAGGIO -->
-                                        <div class="hour-sms">
-                                    
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>07:07</p>
                                         </div>
-
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_io.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div  class="user__name desktop">
+                                                <h2>Marsela</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>09:15</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_1.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Samuele</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>11:11</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_3.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Pietro</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>17:17</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_6.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Paola</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>19:15</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_7.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Achille</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>22:15</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_4.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Otocon</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>23:59</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_6.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Elisa</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>ieri</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_5.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Dante</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>Marted&igrave;</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- fine list item -->
+                                <!-- LIST ITEM COMPLETO DI FOTO + INFO -->
+                                <li class="list__user">
+                                    <div class="list__user__content">
+                                        <!-- FOTO USER -->
+                                        <figure class="user__avatar">
+                                            <img src="./img/avatar_7.jpg" alt="avatar_1">
+                                            <!-- NOME USER + INFO ACCESSO -->
+                                            <div class="user__name desktop">
+                                                <h2>Commercial...</h2>
+                                                <p class="user__info">Lorem ipsum dolor sit amet</p>
+                                            </div>
+                                        </figure>
+                                        <!-- ORARIO MESSAGGIO -->
+                                        <div class="hour-sms desktop mb-15">
+                                            <p>9/3/1950</p>
+                                        </div>
                                     </div>
                                 </li>
                                 <!-- fine list item -->
@@ -135,9 +300,6 @@
         </div>
 
     </main>
-    <footer>
-
-    </footer>
-    
+  
 </body>
 </html>

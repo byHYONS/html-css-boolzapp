@@ -16,6 +16,9 @@
         /* *** ???  *** */
 
     /* .list .desktop {display: none;} */
+    #notification {display: none;}
+    #research {display: none;}
+    .desktop {display: none;}
 
     .list {display: flex; flex-direction: column;}
 
@@ -28,6 +31,7 @@
         color: var(--color-icon-bottom-bar);
     }
     
+    .container {max-height: max-content;}
     
     .content__message input {
         width: 80%;
@@ -35,6 +39,7 @@
         border: none;
     }
 
+    p.user__info { display: block;}
 
     
 

@@ -18,9 +18,16 @@
 
             /* FINE */
 
-
+    #notification {display: flex;}
+     #research {display: flex;}
+    .desktop {display: block;}
             
-    .list {display: flex; flex-direction: column; width: 40%;}
+    .list {
+        display: flex; 
+        flex-direction: column; 
+        width: 40%;
+        /* overflow: hidden; */
+    }
 
     /* .list .desktop {display: block;} */
 
@@ -35,13 +42,7 @@
         width: 90%;
         height: 95%;
         margin: auto;
-    }
-
-    .content__chat {
-        
-        height: calc(90vh - 10.9375rem);
-    }
-
+    }    
 
     .content__message i.fas {
         display: block;
@@ -55,11 +56,6 @@
         height: 60%;
         border: none;
     }
-
-
-
-
-    
 
 
 }
@@ -80,7 +76,7 @@
     .container {max-width: 1200px;}
 
     .container {
-        width: 85%;
+        width: 88%;
         height: 95%;
         margin: auto;
     }
