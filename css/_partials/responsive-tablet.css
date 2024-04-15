@@ -29,6 +29,7 @@
         display: block;
         font-size: 1.5625rem;
         color: var(--color-icon-bottom-bar);
+        cursor: pointer;
     }
     
     .container {max-height: max-content;}
